@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" style="cursor: pointer;">
+	<style>
+		line {
+			stroke: #ffffff;
+			stroke-width: 4px;
+			transition: stroke 0.3s, stroke-width 0.3s;
+		}
+		svg:hover line {
+			stroke: #ff0000; /* Changes color on hover */
+			stroke-width: 6px; /* Increases line thickness on hover */
+		}
+	</style>
+	<line x1="20" y1="20" x2="44" y2="44" />
+	<line x1="20" y1="44" x2="44" y2="20" />
+</svg>
